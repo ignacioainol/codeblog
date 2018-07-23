@@ -5,6 +5,7 @@
 </div>
 
 <hr>
+<a class="btn btn-default float-left" href="<?= base_url() ?>posts/edit/<?= $post['slug'] ?>">Edit</a>
 <?= form_open('/posts/delete/'.$post['id']) ?>
 	<input type="submit" value="Delete" class="btn btn-danger">
-</form>
+</form> 

@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Codeblog</title>
 	<link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css">
+  <script src="http://cdn.ckeditor.com/4.10.0/standard/ckeditor.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -24,10 +25,9 @@
         <a class="nav-link" href="<?= base_url().'posts' ?>">Posts</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" placeholder="Search" type="text">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    <ul class="nav navbar-nav navbar-right">
+      <a class="nav-link" href="<?= base_url() ?>/posts/create">Create Post</a>
+    </ul>
   </div>
 </nav>
 <div class="container" style="padding-top: 3em">

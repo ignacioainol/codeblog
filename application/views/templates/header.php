@@ -5,6 +5,7 @@
 	<title>Codeblog</title>
 	<link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css">
   <script src="http://cdn.ckeditor.com/4.10.0/standard/ckeditor.js"></script>
+  <link rel="stylesheet" href="<?= site_url() ?>assets/css/styles.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">

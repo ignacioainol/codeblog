@@ -25,9 +25,17 @@
       <li class="nav-item">
         <a class="nav-link" href="<?= base_url().'posts' ?>">Posts</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?= base_url().'categories' ?>">Categories</a>
+      </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <a class="nav-link" href="<?= base_url() ?>/posts/create">Create Post</a>
+      <li>
+        <a class="nav-link" href="<?= base_url() ?>/posts/create">Create Post</a>
+      </li>
+      <li>
+        <a class="nav-link" href="<?= base_url() ?>/categories/create">Create Category</a>
+      </li>
     </ul>
   </div>
 </nav>
